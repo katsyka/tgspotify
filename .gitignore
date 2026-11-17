@@ -37,3 +37,4 @@ work/
 *.orig
 .DS_Store
 data/
+*.bak*

@@ -36,7 +36,7 @@ DATA = BASE / "data"; DATA.mkdir(exist_ok=True)
 CACHE = BASE / "cache"; CACHE.mkdir(exist_ok=True)
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-OWNER_ID = 5146625949
+OWNER_ID = int(os.environ["OWNER_ID"])
 API_ID = int(os.environ["API_ID"])
 API_HASH = os.environ["API_HASH"]
 SP_ID = "cfee1d81b74847769499fb100745fc75"
